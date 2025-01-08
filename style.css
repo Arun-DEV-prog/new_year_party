@@ -82,3 +82,85 @@
     font-size: 10px;
     color: gray;
 }
+.content-text{
+    position: relative;
+    max-width: 884px;
+    height: 402px;
+    border-radius: 16px;
+    margin: 50px 140px 20px 140px ;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.content-info{
+    text-align: center;
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   line-height:30px;
+}
+.default-section{
+  
+    max-width: 884px;
+    height: 402px;
+    border-radius: 16px;
+    margin: 50px 140px 20px 140px ;
+}
+
+.default-section .container{
+     display: flex;
+     gap: 40px;
+}
+.default-section .circle-red{
+    position: relative;
+    width: 244px;
+    height: 244px;
+    box-sizing: border-box;
+    border-radius: 50%;
+     border: 9px solid rgb(255, 0, 0);
+}
+.circle-red img{
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 240px;
+
+}
+/* .parent img{
+    width: 550px;
+} */
+
+.parent .img-section1{
+    z-index: 1;
+}
+.parent .img-section1 img{
+    width: 350px;
+   
+}
+.parent .img-section2 img{
+    width: 220px;
+}
+.bottom-red{
+   max-width: 884px;
+    height: 150px;
+    position: absolute;
+    margin-top: 200px;
+   
+}
+.bottom-red img{
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.container2{
+    position: relative;
+    margin-top: 100px;
+ 
+
+}
