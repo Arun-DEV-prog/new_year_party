@@ -164,3 +164,25 @@
  
 
 }
+.img-section .text{
+ margin-left: 140px;
+}
+.img-container{
+  
+    margin: 20px 140px 20px 140px;
+
+}
+.img-container .row{
+    margin-bottom: 100px;
+}
+.img-container  .column{
+    display: flex;
+    gap: 20px;
+}
+.img-container .column .img{
+    max-width: 284px;
+    max-height: 250px;
+}
+.column .img img{
+    width: 100%;
+}
