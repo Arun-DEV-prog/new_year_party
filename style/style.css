@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.primary-color{
+     color: red;
+}
 .header{
 
     max-width: 884px;
@@ -33,4 +36,49 @@
     font-weight: 900;
     font-size: 42px;
     letter-spacing: 0%;
+}
+
+.content{
+     display: flex;
+    align-items: center;
+     flex-direction: column;
+}
+.content .content-title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.content .sub-title{
+     font-size: 15px;
+     text-align: center;
+}
+.content img{
+    max-width: 537px;
+    height: 400px;
+}
+
+.banner{
+    border-radius: 16px;
+    margin: 50px 140px 20px 140px ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 884px;
+    height: 400px;
+    background: url(/assets/images/Vectorrr.png), linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+}
+.banner .banner-text{
+    position: absolute;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.banner .banner-title{
+    font-size: 40px;
+
+}
+
+.banner .sub-title{
+    font-size: 10px;
+    color: gray;
 }
